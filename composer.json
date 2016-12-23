@@ -1,0 +1,29 @@
+{
+    "name": "crackerjackdigital/silverstripe-spout-all",
+    "description": "All spout modules",
+    "type": "metapackage",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Steve Wake",
+            "email": "steve@moveforward.co.nz"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+		"crackerjackdigital/silverstripe-modular": "self.version",
+		"crackerjackdigital/silverstripe-quaff-all": "self.version",
+		"crackerjackdigital/silverstripe-spout": "self.version",
+		"crackerjackdigital/silverstripe-spout-graphql": "self.version"
+	},
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/CrackerjackDigital/silverstripe-spout"
+		},
+		{
+			"type": "vcs",
+			"url": "https://github.com/CrackerjackDigital/silverstripe-spout-graphql"
+		}
+	]
+}

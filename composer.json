@@ -19,6 +19,14 @@
 	"repositories": [
 		{
 			"type": "vcs",
+			"url": "https://github.com/CrackerjackDigital/silverstripe-modular"
+		},
+		{
+			"type": "vcs",
+			"url": "https://github.com/CrackerjackDigital/silverstripe-quaff-all"
+		},
+		{
+			"type": "vcs",
 			"url": "https://github.com/CrackerjackDigital/silverstripe-spout"
 		},
 		{
